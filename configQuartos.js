@@ -1,4 +1,4 @@
-export default [{
+module.exports([{
   "quarto": "100",
   "pessoas": 1,
   "quartos": 1,
@@ -109,4 +109,4 @@ export default [{
   "quartos": 1,
   "valor": 600,
   "tipo": "LUXO"
-}]
+}])
