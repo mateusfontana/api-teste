@@ -18,7 +18,7 @@ app.post('/', (req, res) => {
     quarto.tipo === tipo
   )
 
-  const message = `A melhor opção para você é o quarto ${resultado[0].quarto}, o valor dele ficará em ${resultado[0].valor}`
+  const message = `A melhor opção para você é o apartamento ${resultado[0].quarto}, o aluguel dele ficará em ${resultado[0].valor}`
 
   return res.json({ message })
 });
